@@ -8,7 +8,7 @@ header {
     box-shadow: 0px 0px 5px silver;
 }
 #logo {
-    background-image: url("片刻.png");
+    background-image: url("../html/片刻.png");
     width: 80px;
     height: 90px;
     background-size: 100% 100%;
@@ -505,7 +505,7 @@ a {
 .sculpture1 {
     width: 100px;
     height: 100px;
-    background-image: url("人物1.jpeg");
+    background-image: url("../html/人物1.jpeg");
     background-size: 100% 100%;
     border-radius: 100px;
     margin-top: 50px;
@@ -514,7 +514,7 @@ a {
 .sculpture2 {
     width: 100px;
     height: 100px;
-    background-image: url("人物2.jpeg");
+    background-image: url("../html/人物2.jpeg");
     background-size: 100% 100%;
     border-radius: 100px;
     margin-top: 50px;
@@ -523,7 +523,7 @@ a {
 .sculpture3 {
     width: 100px;
     height: 100px;
-    background-image: url("人物3.jpg");
+    background-image: url("../html/人物3.jpg");
     background-size: 100% 100%;
     border-radius: 100px;
     margin-top: 50px;
@@ -532,7 +532,7 @@ a {
 .sculpture4 {
     width: 100px;
     height: 100px;
-    background-image: url("人物4.jpeg");
+    background-image: url("../html/人物4.jpeg");
     background-size: 100% 100%;
     border-radius: 100px;
     margin-top: 50px;
@@ -590,7 +590,7 @@ a {
 }
 
 #end {
-    background-image: url("底部.png") ;
+    background-image: url("../html/底部.png") ;
     background-size: 100% 100%;
     color: white;
     height: 120px;
