@@ -1,0 +1,614 @@
+#bigD {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 90px;
+    box-shadow: 0px 0px 5px silver;
+}
+#logo {
+    background-image: url("../images/片刻.png");
+    width: 80px;
+    height: 90px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+#theUl {
+    list-style: none;
+    margin-top: -60px;
+    margin-left: 120px;
+    width: 400px;
+}
+
+.theLi {
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    line-height: 100px;
+    width: 80px;
+    margin-top: -49px;
+}
+
+.theLi:hover {
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 4px 0px black;
+    font-weight: 500;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.bi {
+    width: 55px;
+    height: 50px;
+
+}
+
+#theR {
+    width: 300px;
+    margin-left: 70%;
+    margin-top: -100px;
+    height: 60px;
+
+}
+
+#btnDeng {
+    border: 1px solid rgb(95, 184, 113);
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: -50px;
+    color: rgb(95, 184, 113);
+}
+
+#btnDeng:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(95, 184, 113);
+}
+
+#centre {
+    left: 10%;
+    width: 970px;
+    height: 480px;
+    top: 100px;
+    position: relative;
+}
+
+.D1 {
+    width: 450px;
+    height: 480px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.D1 > img {
+    width: 450px;
+    height: 480px;
+}
+
+.D1 > span {
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    opacity: 0.4;
+    background-color: black;
+    top:410px ;
+    display: none;
+}
+
+.D1 > p {
+    color: aliceblue;
+    position: absolute;
+    font-size: 20px;
+    top:415px ;
+    margin-left: 5px;
+    display: none;
+}
+
+.D1 > img:hover {
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.D1:hover>span{
+    display: block;
+}
+.D1:hover>p{
+    display: block;
+}
+.D2 {
+    width: 260px;
+    height: 450px;
+    overflow: hidden;
+    left: 450px;
+    position: absolute;
+}
+.D2 > span {
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    opacity: 0.4;
+    background-color: black;
+    top:170px ;
+    display: none;
+
+}
+
+.D2 > p {
+    color: aliceblue;
+    position: absolute;
+    font-size: 18px;
+    top:175px ;
+    margin-left: 5px;
+    display: none;
+
+}
+.D2 > img:hover {
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.D2:hover>p{
+    display: block;
+}
+.D2:hover>span{
+    display: block;
+}
+
+.D2 > img {
+    width: 260px;
+    height: 240px;
+}
+.D3 {
+    width: 260px;
+    height: 240px;
+    overflow: hidden;
+    left: 710px;
+    position: absolute;
+}
+
+.D3 > img {
+    width: 260px;
+    height: 240px;
+
+}
+.D3 > span {
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    opacity: 0.4;
+    background-color: black;
+    top:170px ;
+    display: none;
+}
+.D3 > p {
+    color: aliceblue;
+    position: absolute;
+    font-size: 17px;
+    top:175px ;
+    margin-left: 5px;
+    display: none;
+}
+.D3 > img:hover {
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.D3:hover>p{
+    display: block;
+}
+.D3:hover>span{
+    display: block;
+}
+
+.D4 {
+    width: 260px;
+    height: 240px;
+    overflow: hidden;
+    left: 450px;
+    top: 240px;
+    position: absolute;
+}
+
+.D4 > img {
+    width: 260px;
+    height: 240px;
+
+}
+.D4 > span {
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    opacity: 0.4;
+    background-color: black;
+    top:170px ;
+    display: none;
+}
+.D4 > p {
+    color: aliceblue;
+    position: absolute;
+    font-size: 17px;
+    top:180px ;
+    margin-left: 5px;
+    display: none;
+}
+.D4 > img:hover {
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.D4:hover>p{
+    display: block;
+}
+.D4:hover>span{
+    display: block;
+}
+
+
+.D5 {
+    width: 260px;
+    height: 240px;
+    overflow: hidden;
+    left: 710px;
+    top: 240px;
+    position: absolute;
+}
+
+.D5 > img {
+    width: 260px;
+    height: 240px;
+
+}
+.D5 > span {
+    position: absolute;
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    opacity: 0.4;
+    background-color: black;
+    top:170px ;
+    display: none;
+}
+.D5 > p {
+    color: aliceblue;
+    position: absolute;
+    font-size: 17px;
+    top:180px ;
+    margin-left: 5px;
+    display: none;
+}
+.D5 > img:hover {
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.D5:hover>p{
+    display: block;
+}
+.D5:hover>span{
+    display: block;
+}
+
+#read {
+    position: relative;
+    top: 170px;
+    left: 10%;
+    width: 970px;
+    height: 700px;
+}
+
+.fang {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+.yue {
+    margin-left: 50px;
+    position: absolute;
+}
+
+.character1 {
+    border: 1px solid silver;
+    width: 95%;
+    margin-top: 10px;
+    height: 200px;
+    margin-left: 20px;
+    float: left;
+}
+
+.title {
+    font-family: "Yuanti SC";
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.title:hover{
+    color: chartreuse;
+}
+
+.name {
+    font-family: "Yuanti SC";
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: rgb(51,51,51);
+}
+
+.txt {
+    font-family: "Yuanti SC";
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: rgb(51,51,51);
+}
+
+.theL {
+
+    width: 650px;
+}
+
+.theR {
+    float: right;
+    width: 265px;
+    height: 200px;
+    margin-top: -182px;
+    background-image: url("http://hpimg.pianke.me/b963239b505140283a6cd87275ecbb8520170720.gif");
+    background-size: 100% 100%;
+}
+
+.theSpan {
+    color: chartreuse;
+}
+
+.affiliate {
+    font-family: "Yuanti SC";
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: rgb(51,51,51);
+    margin-top: 30px;
+}
+
+#hed {
+    height: 50px;
+}
+
+.theR2 {
+    float: right;
+    width: 265px;
+    height: 200px;
+    margin-top: -182px;
+    background-image: url("http://hpimg.pianke.me/37563e4b91cdb37d6784d234454d8f5020170619.jpg?imageView2/2/w/640/format/jpg");
+    background-size: 100% 100%;
+}
+.theR3 {
+    float: right;
+    width: 265px;
+    height: 200px;
+    margin-top: -182px;
+    background-image: url("http://hpimg.pianke.me/47f879d4128bb2b0922861a77e8f598d20170426.jpg?imageView2/2/w/640/format/jpg");
+    background-size: 100% 100%;
+}
+
+#theTing {
+    position:relative;
+    top: 250px;
+    left: 10%;
+    width: 970px;
+    height: 500px;
+}
+
+#ting {
+    height: 50px;
+}
+
+#frame {
+
+    height: 300px;
+    width: 100%;
+}
+
+.cover {
+    width: 300px;
+    height: 300px;
+}
+
+.theM {
+    width: 300px;
+    height: 300px;
+}
+
+.side1 {
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    top: 50px;
+
+}
+
+.introduce {
+    height: 100px;
+}
+
+.side2 {
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    left: 330px;
+    top: 50px;
+}
+
+.side3 {
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    left: 660px;
+    top:50px;
+}
+
+#pianKe {
+    position:relative;
+    top: 300px;
+    left: 10%;
+    width: 970px;
+    height: 500px;
+
+}
+
+#BD {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.figure1 {
+    width: 230px;
+    height: 240px;
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+}
+.figure2 {
+    width: 230px;
+    height: 240px;
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    left: 245px;
+}
+.figure3 {
+    width: 230px;
+    height: 240px;
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    left: 490px;
+}
+.figure4 {
+    width: 230px;
+    height: 240px;
+    border: 1px solid rgb(232,232,232);
+    position: absolute;
+    left: 735px;
+}
+
+.sculpture1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/人物1.jpeg");
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.sculpture2 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/人物2.jpeg");
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.sculpture3 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/人物3.jpg");
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.sculpture4 {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/人物4.jpeg");
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.music {
+    width: 50px;
+    height: 18px;
+    margin-left: 45px;
+}
+
+.theName {
+    font-family: "Yuanti SC";
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: -100px;
+}
+
+.H {
+    margin-left: 130px;
+}
+
+#handpick {
+    width: 150px;
+    height: 50px;
+    border: 1px solid mediumseagreen;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    border-radius: 100px;
+    opacity: 0.8;
+}
+
+#handpick2 {
+    width: 140px;
+    height: 40px;
+    border: 1px solid mediumseagreen;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100px;
+    color: white;
+    background-color: mediumseagreen;
+    opacity: 0.8;
+}
+
+#handpick2:hover{
+    opacity: 1;
+}
+
+#end {
+    background-image: url("../images/底部.png") ;
+    background-size: 100% 100%;
+    color: white;
+    height: 120px;
+    position: absolute;
+    width: 100%;
+    margin-top: 350px;
+}
+
+#theBig {
+    position:relative;
+    animation:myfirst 5s;
+    -webkit-animation:myfirst 5s;
+}
+@-webkit-keyframes myfirst
+{
+    0%   { left:0px; top:0px;}
+    50%  { left:0px; top:-100px;}
+    100%   { left:0px; top:0px;}
+
+
+}
